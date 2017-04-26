@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
 <head>
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -9,45 +8,41 @@
     <link type="text/css" rel="stylesheet" href="css/override.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Login</title>
 </head>
 <body>
 <nav>
     <div class="nav-wrapper blue-grey darken-2">
         <a href="#" class="brand-logo center">The Loop</a>
-        <ul>
-            <li class="left" style="padding-left: 10px">
-                    <a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons">perm_identity</i></a>
-            </li>
-        </ul>
     </div>
 </nav>
 
-
 <div class="row">
-    <div class="col s4 offset-s1">
-        <div class="card">
-            <div class="card-content">
-                <a class="btn-floating waves-effect waves-light orange darken-4 right"><i class="material-icons">add</i></a>
-                <span class="card-title">Notes</span>
+    <div class="col s4 offset-s4">
+    <div class="card">
+
+        <div class="row">
+            <div class="card-title center" style="padding-top: 10px">
+            <h5>Login with your Loop account or Google</h5>
             </div>
-            <div class="card-action">
-                hello
+            <div class="card-content">
+                <div class="input-field col s4">
+                    <i class="material-icons prefix">perm_identity</i>
+                    <input id="username" type="text" class="validate">
+                    <label for="username">Username</label>
+                </div>
+                <div class="input-field col s4 offset-s2">
+                    <i class="material-icons prefix">https</i>
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col s4 offset-s2">
-        <div class="card">
-            <div class="card-content">
-                <a class="btn-floating waves-effect waves-light orange darken-4 right"><i class="material-icons">add</i></a>
-                <span class="card-title">Events</span>
-            </div>
-            <div class="card-content">
-            </div>
-        </div>
     </div>
 </div>
 
+<div class="btn"><i class="material-icons">menu</i> </div>
 
 
 <!--Import jQuery before materialize.js-->
