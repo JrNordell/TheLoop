@@ -1,3 +1,11 @@
 .btn-flat:hover{
     background: transparent;
 }
+
+textarea.materialize-textarea {
+    height: 0em;
+}
+
+.card-contenta{
+    padding: 10px;
+}
